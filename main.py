@@ -26,6 +26,8 @@ prompt = ChatPromptTemplate.from_messages([
     ("user", "{question}")
 ])
 
+
+
 # Create LangChain pipeline
 chain = prompt | llm | StrOutputParser()
 

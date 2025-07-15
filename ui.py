@@ -4,7 +4,8 @@ import requests
 # FastAPI endpoint URL
 FASTAPI_URL = "http://localhost:8000/ask"
 
-st.title("LangChain Groq Chatbot Frontend")
+
+st.title("🤖 AI ChatBot")
 
 # User input
 user_question = st.text_input("Ask a question:")
